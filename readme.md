@@ -10,7 +10,7 @@ Built using Java 8, Maven 3.3, Spring Boot, & AWS SES.
 Prerequisites: Java 8, Maven 3.3, AWS account with SES configured
 
 Compile & Build:
-1. Download source code\n
+1. Download source code
 2. Update the properties file with your AWS credentials and email account. Logging configuration via log4j, logback.xml in the resources folder
 3. Change to your appropriate AWS region in the example.customer.service.util.AWSEmailSender.java line 55
 4. Run maven build: mvn clean package
